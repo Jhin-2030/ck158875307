@@ -13,7 +13,4 @@ class Calculator:
         return a * b
 
     def div(self,a,b):
-        if(b != 0):
-            return a / b
-        else:
-            return '除数不能为0'
+        return a / b
